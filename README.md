@@ -1,38 +1,95 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Beefreez</title>
+  <title>Beefreez | Be Free. Be Heard.</title>
+
   <style>
     body {
       margin: 0;
-      height: 100vh;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #fdf6e3, #e6f0ff);
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #fff9e6;
-      font-family: 'Segoe UI', sans-serif;
+      height: 100vh;
+      text-align: center;
+      color: #333;
     }
 
     .container {
-      text-align: center;
+      max-width: 500px;
+      padding: 20px;
+    }
+
+    img {
+      width: 140px;
+      margin-bottom: 20px;
     }
 
     h1 {
-      font-size: 55px;
+      font-size: 50px;
       margin: 0;
-      color: #222;
-      letter-spacing: 3px;
+      letter-spacing: 2px;
     }
 
-    .bee {
-      font-size: 60px;
-      margin-bottom: 10px;
-    }
-
-    p {
+    .tagline {
+      font-size: 20px;
+      margin-top: 10px;
       color: #555;
-      margin-top: 8px;
-      font-size: 18px;
+    }
+
+    .description {
+      margin-top: 25px;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #666;
+    }
+
+    .button {
+      margin-top: 30px;
+      padding: 12px 25px;
+      font-size: 16px;
+      background-color: #1e3c72;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background-color: #2a5298;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    
+    <!-- Replace logo.png with your uploaded logo name -->
+    <img src="logo.png" alt="Beefreez Logo">
+
+    <h1>Beefreez</h1>
+
+    <div class="tagline">
+      Be Free. Be Heard. 🐝
+    </div>
+
+    <div class="description">
+      A safe space for lonely hearts.  
+      Call. Speak. Release.  
+      Let your emotions freeze into calm and fly free again.
+    </div>
+
+    <button class="button">
+      Coming Soon
+    </button>
+
+  </div>
+
+</body>
+</html>      font-size: 18px;
     }
   </style>
 </head>
