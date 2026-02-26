@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Website</title>
+  <title>Beefreez</title>
   <style>
     body {
-      font-family: Arial;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff9e6;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .container {
       text-align: center;
-      margin-top: 100px;
     }
-    h1 { color: darkblue; }
+
+    h1 {
+      font-size: 55px;
+      margin: 0;
+      color: #222;
+      letter-spacing: 3px;
+    }
+
+    .bee {
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+      margin-top: 8px;
+      font-size: 18px;
+    }
   </style>
 </head>
 <body>
-  <h1>Hello 👋 I'm Marwa</h1>
-  <p>Welcome to my website.</p>
-</body>
-</html>      border-radius: 25px;
-      cursor: pointer;
-    }
 
-    button:hover {
-      background: #ddd;
-    }
-  </style>
-</head>
-
-<body>
   <div class="container">
-    <h1>Hello 👋 I'm Marwa</h1>
-    <p>BA Researcher | Intercultural Studies | Media & Analysis</p>
-    <button onclick="alert('More content coming soon!')">
-      View My Work
+    <div class="bee">🐝</div>
+    <h1>Beefreez</h1>
+    <p>Stay cool. Stay fresh.</p>
+  </div>
+
+</body>
+</html>      View My Work
     </button>
   </div>
 </body>
