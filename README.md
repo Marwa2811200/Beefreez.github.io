@@ -1,38 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Marwa | Academic Portfolio</title>
+  <title>My Website</title>
   <style>
     body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #1e3c72, #2a5298);
-      color: white;
+      font-family: Arial;
       text-align: center;
+      margin-top: 100px;
     }
-
-    .container {
-      margin-top: 120px;
-    }
-
-    h1 {
-      font-size: 40px;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 18px;
-      opacity: 0.9;
-    }
-
-    button {
-      margin-top: 20px;
-      padding: 10px 20px;
-      border: none;
-      background: white;
-      color: #1e3c72;
-      font-weight: bold;
-      border-radius: 25px;
+    h1 { color: darkblue; }
+  </style>
+</head>
+<body>
+  <h1>Hello 👋 I'm Marwa</h1>
+  <p>Welcome to my website.</p>
+</body>
+</html>      border-radius: 25px;
       cursor: pointer;
     }
 
